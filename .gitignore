@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# build outputs
+website/backend/dist/
+website/frontend/dist/
+website/frontend/tsconfig.tsbuildinfo
+
+# generated JS from TS source in frontend
+website/frontend/src/**/*.js
+website/frontend/src/lib/**/*.js
+website/frontend/vite.config.js
+
+# local runtime data
+website/backend/data/*.db
+
+# env
+.env
